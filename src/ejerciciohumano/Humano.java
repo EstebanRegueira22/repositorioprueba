@@ -35,6 +35,7 @@ public class Humano {
         this.nombre = nombre;
         this.fechaDeNacimiento = fechaDeNacimiento;
         this.apellido = apellido;
+        
         if (edad<0 || edad > 160){
             System.out.println("Ha ingresado una edad incorrecta");
         }
